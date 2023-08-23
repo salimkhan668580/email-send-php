@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+
+    
+    height: 600px;
+    
+}
+.container-fluid{
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0, 0, 0.6)),
+                  url("./background.jpg");
+                
+                
+                  background-repeat: no-repeat;
+ 
+                  height: 720px !important;
+                  min-width: 100%;
+    
+   
+
+}
+
+
+.a{
+    max-width: 400px;
+    background-color:rgb(241, 237, 237);
+}
+#main{
+    margin: 50px auto;
+    box-sizing: border-box !important;
+}
+.btn{
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right, rgba(245, 113, 92, 0.963) , rgb(247, 54, 54));
+    font-weight: bold !important;
+}
+@media only screen and (min-width: 600px) {
+    body {
+      
+    }
+  }
